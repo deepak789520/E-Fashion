@@ -1,0 +1,162 @@
+.homediv {
+  background-color:  #dee8e2;
+   display: flex;
+   height: 100vh;
+   justify-content: center;
+   
+ }
+
+.container-tag {
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: ghostwhite;
+  box-shadow: 0px 2px 6px rgba(0.3, 0, 0, 0.3);
+}
+
+
+.info p {
+  margin: 5px 0;
+  font-size: large;
+  
+}
+.info{
+  border: 1px solid #ccc;
+  padding: 50px;
+  border-radius: 1rem;
+  box-shadow: 0px 2px 6px rgba(0.3, 0, 0, 0.3);
+}
+
+.address h2 {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.address-tags table {
+  width: 800px;
+  border-collapse: collapse;
+  padding: 20px;
+  margin: 20px;
+}
+
+.address-tags th,
+.address-tags td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+.address-tags tr:hover {
+   transform: scale(1.02);
+}
+
+
+
+ .rem:hover{
+  background-color: orangered;
+}
+
+
+.address-tags th {
+  background-color: #333;
+  color: white;
+}
+.address-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.address-button button{
+  background-color: #0654a1;
+}
+.address-button button:hover{
+  background-color: green;
+}
+
+
+.address-tags td button {
+  background-color: #0654a1;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+
+.formaddress {
+  margin-top: 20px;
+  
+}
+.form-tag{
+  padding-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  opacity: 100%;
+}
+
+.form-tag h3{
+  padding-bottom: 20px;
+}
+.formprofile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  position: fixed;
+  top: 2%;
+  left: 38%;
+}
+
+
+.form-tag label {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.form-tag input:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.form-tag input {
+  border: none;
+  border-bottom: 2px solid black;
+  background-color: white;
+  padding: 5px;
+  width: 100%; 
+}
+
+.form_buttons{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+
+.error{
+  padding: 5px;
+  font-size: large;
+  background-color: red;
+  color: white;
+  border-radius: 1rem;
+}
+.success{
+  padding: 5px;
+  font-size: large;
+  background-color: green;
+  color: white;
+  border-radius: 1rem;
+}
+
+.msg-div{
+  padding-left: 15px;
+}

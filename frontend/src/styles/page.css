@@ -1,0 +1,81 @@
+.baground {
+  background-image: url(https://wallpaperboat.com/wp-content/uploads/2020/11/10/60057/shopping-33.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  border-radius: 1rem;
+  width: 350px;
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+form h2 {
+  color: black;
+  padding-top: 15px;
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: black;
+  width: 200px; 
+}
+
+form input:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+form input {
+  border: none;
+  border-bottom: 2px solid black;
+  background-color: gainsboro;
+  padding: 5px;
+  width: 100%; /* Added fixed width */
+}
+input{
+  background-color: rgba(249, 249, 249, 0.781);
+  
+}
+
+form button[type="submit"] {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+form button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+
+
+form a {
+  color: blue;
+  padding: 15px;
+}
+

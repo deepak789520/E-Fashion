@@ -1,0 +1,147 @@
+.shopping-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    transition: fadIn 1s ease-in-out ;
+    padding-left: 75px;
+  }
+  .product{
+    background-color:  gainsboro;
+  }
+
+ .productform {
+  width: 200px;
+  height: 300px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.3);
+}
+  
+  .productform img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+  }
+
+  
+  .productform img:hover{
+    transform: scale(2);
+  }
+  
+  .productform p {
+    font-size: medium;
+    font-weight: bold;
+  }
+  
+  .productform button {
+    margin-top: auto;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+   align-items: center;
+   justify-content: center;
+    cursor: pointer;
+  }
+  
+  .productform button:hover {
+    background-color: #3e8e41;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+}
+  
+.productform button {
+      font-size: 12px;
+      padding: 8px;
+    }
+  
+  .btnn{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+   padding-left: 65px;
+   height: 35px;
+  }
+  
+
+  .btnn button:hover {
+    background-color: lightskyblue;
+  }
+  .details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .amount{
+    padding-left: 60px;
+  }
+  .description{
+    font-size: medium;
+  }
+  .category{
+    padding-right: 5px;
+  }
+
+  .dropdown{
+    display: flex;
+    flex-direction: row;
+  }
+  .notification {
+    display: flex;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: fixed;
+    width: 250px;
+    padding: 10px 20px;
+    background-color: rgba(172, 255, 47, 0.839);
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-align: center;
+    z-index: 9999;
+  }
+  
+  .notifications {
+    display: flex;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: fixed;
+    width: 250px;
+    padding: 10px 20px;
+    background-color: red;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  
+  }
+
+  .full-description {
+    display: none;
+  }
+
+  
+  
+  .description:hover .full-description {
+    display: inline;
+  }
+  
+ 

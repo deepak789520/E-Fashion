@@ -1,0 +1,249 @@
+/* Define CSS styles for your component */
+
+.cart-container {
+  display: flex;
+  min-height: 100vh;
+  background-color:  gainsboro;
+}
+.cart {
+  padding: 20px;
+}
+
+.cart h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  padding-left: 500px;
+
+}
+.clearcart{
+  padding: 10px;
+  padding-left: 600px;
+}
+
+
+.cart button.remove-btn {
+  background-color: blue;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.cart button.remove-btn:hover {
+  background-color: #e60000;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 6px 6px 12px rgba(0.3, 0, 0, 0.3);
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 2rem;
+  height: 450px;
+}
+
+.card h5{
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+  
+}
+
+.order-summary {
+
+  margin: 0 auto;
+  text-align: center;
+  width: 350px;
+  position: fixed;
+  left: 65%;
+  top: 20%;
+  height: 200px;
+ 
+}
+
+.subtotal,
+.delivery-charges,
+.total {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding-bottom: 30px;
+  font-size: medium;
+}
+
+.checkout-btn button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.checkout-btn button:hover {
+  background-color: #218838;
+}
+
+.quantity {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-left: 250px;
+
+}
+
+.quantity-btn {
+  background-color: #ccc;
+  color: #333;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.display {
+  display: flex;
+  flex-direction: row;
+
+  
+}
+
+.quantity-btn:hover {
+  background-color: #bbb;
+}
+
+.quantity p {
+  font-size: 18px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+  
+}
+.product-info{
+  display: flex;
+  flex-direction: row;
+
+}
+
+
+.shop{
+  padding-left:15px ;
+}
+
+.empty{
+  padding-left: 500px;
+  font-size: large;
+}
+
+.cart-table{
+  display: flex;
+  flex-direction: column;
+  margin-left: 70px;
+  
+}
+
+.table{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  width: 700px;
+}
+.tab{
+  display: flex;
+  background-color: white;
+    border-radius: 10px;
+  border-radius: 2rem;
+  margin-bottom: 30px;
+  width: 700px;
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.3);
+  
+}
+.table img{
+  width:120px;
+  height: 150px;
+  padding-left:30px ;
+}
+
+
+.pro-inf{
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  font-size: medium;
+  text-align: left;
+}
+
+.information{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bts-pri{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.ddd{
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+  font-weight: bold;
+ 
+}
+.aaa{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+
+
+
+.dis-btn{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  padding-left: 150px;
+}
+.dis-btn p{
+  text-align: left;
+ width: 300px;
+ 
+}
+
+
+.address-select {
+  margin-bottom: 20px;
+}
+
+.address-dropdown {
+  width: 200px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.address-placeholder {
+  margin-top: 8px;
+  color: red;
+}
+
+.checkbutton{
+  padding-top: 5px;
+  margin-top:10px ;
+}

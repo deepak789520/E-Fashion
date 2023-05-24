@@ -1,0 +1,54 @@
+.home{
+    background-image: url(https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?cs=srgb&dl=pexels-juan-mendez-1536619.jpg&fm=jpg);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+.home{
+ 
+    filter: brightness(90%) saturate(100%);
+}
+
+  .header{
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    margin-left: 80px;
+    padding-left: 80px;
+    padding-top: 100px;
+  }
+
+  .hi{
+    color: black;
+    padding-left: 20px;
+  }
+  .wc{
+    color: black;
+    padding-left: 20px;
+  }
+  .header2{
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    margin-left: 80px;
+    padding-left: 80px;
+  
+  }
+  .ft{
+    color: black;
+    padding-left: 20px;
+  }
+  .header3{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin-left: 80px;
+    padding-left: 80px;
+  
+  }
+  .ct{
+    color: black;
+    padding-left: 20px;
+  }
+

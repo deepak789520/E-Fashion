@@ -1,0 +1,44 @@
+.pagehead {
+  background-color: skyblue;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+ .container h1 {
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+ .container p {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .sucessbtn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .sucessbtn:hover {
+    background-color: #0056b3;
+  }
