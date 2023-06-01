@@ -74,28 +74,11 @@ let endpointSecret;
 
 striperouter.post('/webhook', express.raw({type: 'application/json'}), (req, res) => {
   
-  const sig = req.headers['stripe-signature'];
   let data;
   let eventType;
-
-  if(endpointSecret){
-    let event;
-
-    try {
-      event = stripekey.webhooks.constructEvent(req.body, sig, endpointSecret);
-      console.log("verified")
-    } catch (err) {
-      console.log(`Webhook Error: ${err.message}`)
-      res.status(400).send(`Webhook Error: ${err.message}`);
-      return;
-    }
-    data=event.body.object;
-    eventType = event.type
-  }
-  else{
-    data = req.body.data.object;
-    eventType=req.body.type;
-  }
+  
+  data = req.body.data.object;
+  eventType=req.body.type;
 
   if (eventType==="checkout.session.completed"){
     stripekey.customers.retrieve(data.customer)

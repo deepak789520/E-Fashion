@@ -52,11 +52,7 @@ const PayButton=({cartlist,address_list})=>{
     userid,
     address,
   },
-  {
-    headers: {
-      Tokenheaders: token,
-    },
-  })
+  )
   .then((res)=>{ 
     if(res.data.url){
       window.location.href= res.data.url;
