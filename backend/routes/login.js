@@ -8,10 +8,6 @@ dotenv.config();
 
 
 export const loginRouter = express.Router()
-
-
-
-
 //Router:2 =>used for login to check user is registered or not
 loginRouter.post('/login',
 body('email',"enter valid email id ").isEmail(),
@@ -47,7 +43,7 @@ try {
      id: userdoc._id
             
         }
-        let token = jwt.sign(data, process.env.JWT_STRING , { expiresIn: '3h' })
+        let token = jwt.sign(data, process.env.JWT_STRING , { expiresIn: '5h' })
         res.json(token)
         
 } catch (error) {
